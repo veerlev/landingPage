@@ -73,33 +73,22 @@ header.startup h1 {
 }
 
 .credit {
-    background-color:black;
     color:white;
     text-decoration:none;
     padding:4px 6px;
-    font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size:12px;
     font-weight:bold;
     line-height:1.2;
-    display:inline-block;
-    border-radius:3px;
   }
 
-  .credit-span{
-    display:inline-block;
-    padding:2px 3px;
-  }
-
-.credit-svg{
-   height:12px;
-   width:auto;
-   position:relative;
-   vertical-align:middle;
-   top:-2px;
-   fill:white;
+.photo-credit{ 
+  width: 100px;
+   margin: 0 auto !important;
+  vertical-align: bottom;
+  background-color: #102027;
 }
 
-.credit-second-span{
-  style="display:inline-block;
-  padding:2px 3px;
+footer{
+  background-color: #102027;
 }
