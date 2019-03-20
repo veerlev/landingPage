@@ -21,7 +21,7 @@ hr {
 
 header.startup {
   background-position: center;
-  background-image: url("header.jpg");
+  background-image: url("simon-launay-236262-unsplash.jpg");
   background-size: cover;
   height: 100%;
 }
@@ -56,4 +56,34 @@ header.startup h1 {
   border-width: 5px;
   cursor: pointer;
 }
-  
+.credit {
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    padding:4px 6px;
+    font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    line-height:1.2;
+    display:inline-block;
+    border-radius:3px;
+  }
+
+  .credit-span{
+    display:inline-block;
+    padding:2px 3px;
+  }
+
+.credit-svg{
+   height:12px;
+   width:auto;
+   position:relative;
+   vertical-align:middle;
+   top:-2px;
+   fill:white;
+}
+
+.credit-second-span{
+  style="display:inline-block;
+  padding:2px 3px;
+}
