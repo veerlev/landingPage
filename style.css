@@ -51,12 +51,27 @@ header.startup h1 {
   border-color: #d05ce3;
 }
 
-.btn-primary:hover {
-  background-color: #6a0080;
-  border-color: #6a0080;
+.btn-primary:visited {
+  background-color: #7b1fa2 !important;
+  border-color: #7b1fa2 !important;
   border-width: 5px;
   cursor: pointer;
 }
+
+.btn-primary:hover {
+  background-color: #6a0080  !important;
+  border-color: #6a0080 !important;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:active {
+  background-color: #718792 !important;
+  border-color: #718792 !important;
+  border-width: 5px;
+  cursor: pointer;
+}
+
 .credit {
     background-color:black;
     color:white;
