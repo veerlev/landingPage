@@ -12,7 +12,7 @@ body {
 hr {
   max-width: 65px;
   border-width: 3px;
-  border-color: #F05F44; 
+  border-color: #d05ce3; 
 }
 
 .faded {
@@ -47,12 +47,13 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44; }
+  background-color: #d05ce3;
+  border-color: #d05ce3;
+}
 
 .btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
+  background-color: #6a0080;
+  border-color: #6a0080;
   border-width: 5px;
   cursor: pointer;
 }
